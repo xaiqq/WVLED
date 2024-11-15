@@ -1,0 +1,25 @@
+# WVLED requirements
+# Usage: pip install -r requirements.txt
+# Note: You need to install pytorch video and pytorch in advance (depending on your CUDA version)
+
+# env:
+# conda create -n WVLED python=3.8
+# conda activate WVLED
+
+# pytorchvideo:
+# git clone https://github.com/facebookresearch/pytorchvideo.git
+# cd pytorchvideo
+# pip install -e .
+
+# pytorch(we test in: 1.12.0(cuda 11.2) and 1.13.0(cuda 11.7)):
+# see: https://pytorch.org/
+
+# --------------------------------------------------------
+psutil
+matplotlib
+scipy
+pandas
+seaborn
+scikit-learn
+simplejson
+# --------------------------------------------------------
